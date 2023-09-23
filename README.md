@@ -1,2 +1,3 @@
-# twitter_app
- Analyze personal statistics of Twitter
+# photo_sorter
+ 
+Work with photos on the disk
