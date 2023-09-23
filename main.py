@@ -6,15 +6,9 @@ from osxmetadata import *
 import const
 
 # variables
-# create a file const.py with your paths
+# rename a file example_const.py to const.py with your personal variables
 path_to_unsorted_photos = const.UNSORTED
 path_to_root_dir = const.SORTED
-
-'''
-dict contanes info about tags and prefics for dir name
-Example:
-TAGS = { 'tag_name': 'dir_prefics/'}
-'''
 dict_tags = const.TAGS
 
 
