@@ -3,16 +3,19 @@ import shutil
 
 from osxmetadata import *
 
-# variables
-path_to_unsorted_photos = '/Users/natalaandrianova/Pictures/unsorted/'
-path_to_root_dir = '/Users/natalaandrianova/Pictures/sorted/'
+import const
 
-dict_tags = {
-    'unsplush': 'unsplush/'
-    , 'stocks': 'stocks/'
-    , 'publish': 'homeusing/publish/'
-    , 'home': 'homeusing/'
-}
+# variables
+# create a file const.py with your paths
+path_to_unsorted_photos = const.UNSORTED
+path_to_root_dir = const.SORTED
+
+'''
+dict contanes info about tags and prefics for dir name
+Example:
+TAGS = { 'tag_name': 'dir_prefics/'}
+'''
+dict_tags = const.TAGS
 
 
 def create_dir(tag_name, created_dttm):
